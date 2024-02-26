@@ -55,7 +55,7 @@ const randomNUmber = () => Math.trunc(Math.random() * 6) + 1;
 rollDice.addEventListener('click', () => {
   let diceNUmber = randomNUmber();
 
-  diceImg.setAttribute('src', `dice-${String(diceNUmber)}.png`);
+  diceImg.src = `dice-${diceNUmber}.png`;
   diceImg.style.display = 'block';
   if (diceNUmber === 1) {
     reset();
