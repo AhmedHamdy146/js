@@ -45,22 +45,22 @@ const game = () => {
     if (op1 === op2) {
       msg.innerHTML = `Draw`;
     } else if (op1 === 0 && op2 === 2) {
-      msg.innerHTML = `player Win`;
+      msg.innerHTML = `player Wins`;
       playerScore++;
     } else if (op1 === 1 && op2 === 0) {
-      msg.innerHTML = `player Win`;
+      msg.innerHTML = `player Wins`;
       playerScore++;
     } else if (op1 === 2 && op2 === 1) {
-      msg.innerHTML = `player Win`;
+      msg.innerHTML = `player Wins`;
       playerScore++;
     } else if (op1 === 0 && op2 === 1) {
-      msg.innerHTML = `Computer Win`;
+      msg.innerHTML = `Computer Wins`;
       cScore++;
     } else if (op1 === 1 && op2 === 2) {
-      msg.innerHTML = `Computer Win`;
+      msg.innerHTML = `Computer Wins`;
       cScore++;
     } else if (op1 === 2 && op2 === 0) {
-      msg.innerHTML = `Computer Win`;
+      msg.innerHTML = `Computer Wins`;
       cScore++;
     }
     document.getElementById("score--0").innerHTML = playerScore;
