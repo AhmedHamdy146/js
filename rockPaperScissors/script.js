@@ -36,7 +36,7 @@ const game = () => {
           btn.style.pointerEvents = "all";
         });
         updateScore(index, comOp);
-      }, 2100);
+      }, 1500);
     });
   });
 

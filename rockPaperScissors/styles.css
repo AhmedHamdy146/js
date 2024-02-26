@@ -75,7 +75,7 @@ body {
 }
 .animate {
   position: relative;
-  animation: up-down 0.7s ease-in-out 3;
+  animation: up-down 0.5s ease-in-out 3;
 }
 .game .img-1 {
   transform: scaleX(-1);
@@ -116,12 +116,28 @@ body {
   }
 }
 
+@media (max-width: 554px) {
+  .header h2 {
+    font-size: 2.4rem;
+  }
+  .intro h1 {
+    font-size: 4rem;
+  }
+  .game {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .game img {
+    width: 50%;
+  }
+}
+
 @keyframes up-down {
   0% {
     top: 0;
   }
   50% {
-    top: -4rem;
+    top: -3rem;
   }
   100% {
     top: 0;
